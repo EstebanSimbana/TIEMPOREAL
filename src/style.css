@@ -43,7 +43,7 @@ button { font: inherit; }
 .map-top-label { position: absolute; z-index: 500; top: 18px; left: 18px; display: inline-flex; align-items: center; gap: 9px; padding: 10px 13px; border: 1px solid #e8ece9; border-radius: 10px; background: #ffffffed; color: #4c5c55; box-shadow: 0 4px 14px #213c3012; font-size: 12px; font-weight: 600; }
 .live-dot { background: #a5aca8; }
 .map-panel.is-active .live-dot { background: #4d9b76; }
-.map-control { position: absolute; z-index: 500; right: 16px; bottom: 118px; width: 42px; height: 42px; display: grid; place-items: center; border: 1px solid #e2e7e2; border-radius: 11px; background: white; color: #465951; cursor: pointer; box-shadow: 0 3px 12px #1f382d15; }
+.map-control { position: absolute; z-index: 500; right: 16px; bottom: 170px; width: 42px; height: 42px; display: grid; place-items: center; border: 1px solid #e2e7e2; border-radius: 11px; background: white; color: #465951; cursor: pointer; box-shadow: 0 3px 12px #1f382d15; }
 .map-control:hover { color: var(--green); background: #f8fbf9; }
 .map-control svg { width: 20px; fill: none; stroke: currentColor; stroke-width: 1.7; }
 .map-attribution { position: absolute; z-index: 500; right: 5px; bottom: 4px; padding: 2px 5px; background: #ffffffd9; color: #68756e; font-size: 10px; }
