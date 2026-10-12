@@ -1,0 +1,21 @@
+{
+  "name": "mi-ubicacion-en-vivo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "firebase": "^11.10.0",
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "overrides": {
+    "@grpc/grpc-js": "^1.14.6"
+  }
+}
